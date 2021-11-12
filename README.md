@@ -1,4 +1,4 @@
-``
+```
 git config -l
 
 // to check if core.autocrlf=false
