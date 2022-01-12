@@ -10,12 +10,15 @@ replace it with
 ```
 
 
-The accepted answer is great, but assuming you have Node installed, you can do this much more precisely with the node library "rimraf", which allows globbing patterns. If you use this a lot (I do), just install it globally.
+Setup for windows environment
+```
+1. npm install dotenv@^8.2.0
+2. yarn install
+3. yarn webpack:dlls:windows
 
-```yarn global add rimraf```
-then, for instance, a pattern I use constantly:
+if you want to delete node_modules in case any issues occured
 
-```rimraf .\**\node_modules```
-or for a one-liner that let's you dodge the global install, but which takes slightly longer for the the package dynamic download:
+npx npkill
+then repeat above 1-2-3 process
 
-```npx rimraf .\**\node_modules```
+```
