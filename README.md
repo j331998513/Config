@@ -22,3 +22,12 @@ npx npkill
 then repeat above 1-2-3 process
 
 ```
+
+Start
+```
+yarn start:frontend:hot:windows  
+yarn start:backend:debug:windows
+
+//auto fix lint
+yarn workspace duuoo-web-client lint-fix
+```
