@@ -31,3 +31,14 @@ yarn start:backend:debug:windows
 //auto fix lint
 yarn workspace duuoo-web-client lint-fix
 ```
+
+
+## uninstall ndoe_module on windows
+```
+rmdir /S /Q node_modules
+```
+
+## uninstall ndoe_module on linux
+```
+rm -rf node_modules
+```
